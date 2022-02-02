@@ -1,0 +1,7 @@
+autopep8
+fire
+flake8
+flake8-import-order
+playwright
+python-dotenv
+pytz
