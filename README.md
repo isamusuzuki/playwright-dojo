@@ -59,7 +59,7 @@ source venv/bin/activate
 
 # playwright コマンドが使えることを確認する
 playwright --version
-# => Version 1.18.2
+# => Version 1.19.0
 
 # Chromiumをインストールする
 playwright install chromium
@@ -70,7 +70,7 @@ playwright install chromium
 ```text
 ~/.cache/
   `--ms-playwright/
-      `--chromium-956323/
+      `--chromium-965416/
           `--chrome-linux/
               `--chrome
 ```
@@ -83,6 +83,8 @@ source venv/bin/activate
 
 # ブラウザ自動化スクリプト
 python main.py first
+
+# あらかじめ temp/itemcodes{suffix}.jsonを用意しておくこと
 python main.py job1 --suffix=01
 python main.py job2 --suffix=01
 ```
